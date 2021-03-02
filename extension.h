@@ -123,8 +123,8 @@ public:
 	//virtual bool SDK_OnMetamodPauseChange(bool paused, char *error, size_t maxlength);
 #endif
 public: //IClientListener
-	virtual void OnClientPutInServer(int client);
-	virtual void OnClientDisconnecting(int client);
+	//virtual void OnClientPutInServer(int client);
+	//virtual void OnClientDisconnecting(int client);
 };
 
 extern IForward* g_hDetect;

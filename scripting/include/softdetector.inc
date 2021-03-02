@@ -6,10 +6,10 @@
 
 /**
  *
- * @param client          Client index.
- * @param game      true if in game soft injected.
+ * @param client			Client index.
+ * @param count				Count events.
  */
-forward void SD_Detect(int client, bool game);
+forward void SD_Detect(int client, int count);
 
 /** Do Not Edit Below This Line **/
 public Extension __ext_softdetector =
